@@ -16,7 +16,7 @@ std::vector<int> solution(std::vector<int> nums)
 {
     for (int i = 0; i < nums.size() - 1; i++)
     {
-        for (int j = i + 1; j < nums.size(); j++)
+        for (int j = i + 1; j < nums.size(); j++gi)
         {
             if (nums[i] > nums[j])
             {
