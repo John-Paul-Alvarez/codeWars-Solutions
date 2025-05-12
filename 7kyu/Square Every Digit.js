@@ -13,5 +13,17 @@ Happy Coding!
 */
 
 function squareDigits(num){
+    /*
+    convert num to string
+    split() 
+    iterate in each number and parseInt each number and multiply each to **2
+    */
+    arrStrNum=num.toString().split()
+    
+
+    
+
+
+
     return 0;
   }
