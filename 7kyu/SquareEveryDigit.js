@@ -17,13 +17,21 @@ function squareDigits(num){
     convert num to string
     split() 
     iterate in each number and parseInt each number and multiply each to **2
+    tostring the result and insert it to the string
     */
-    arrStrNum=num.toString().split()
+   
+   let retVal= ""
+    let arrStrNum=num.toString().split("")
+
+    for(let i of arrStrNum){
+      retVal += parseInt(i**2).toString()
+    }
     
-
-    
-
-
-
-    return 0;
+    return parseInt(retVal);
   }
+
+console.log(squareDigits(9119)); // expected: 811181
+console.log(squareDigits(765));  // expected: 493625
+console.log(squareDigits(0));    // expected: 0
+console.log(squareDigits(1));    // expected: 1
+console.log(squareDigits(1234)); // expected: 14916
