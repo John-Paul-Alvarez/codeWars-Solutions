@@ -1,0 +1,18 @@
+# IDE files
+*.iml
+.idea/
+.vscode/
+
+# Gradle
+.gradle/
+build/
+local.properties
+
+# Android/Native build
+.cxx/
+.externalNativeBuild/
+captures/
+
+# OS-specific
+.DS_Store
+Thumbs.db
